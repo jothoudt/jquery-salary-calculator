@@ -18,4 +18,14 @@ Your project description goes here. What problem did you solve? How did you solv
 
 [x]create delete button
 
+[x]calculate costs
+
+[x]add monthly total to dom
+
+[x]append css to dom if limit reached
+
+[]remove employee from dom
+
+
+
 Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).

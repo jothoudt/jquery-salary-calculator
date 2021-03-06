@@ -3,6 +3,7 @@ $(document).ready(onReady);
 function onReady(){
     console.log('JQ');
     $('#submitButton').on('click', getEmployee);
+    $('#empOut').on('click', '#deleteEmployee', removeEmployee )
 }
 let employe= {};
 let employees =[];
@@ -44,4 +45,9 @@ function calculateCosts(employees){
         $('#monthlyCost').css('color', 'red');
     }
     }
+    }
+
+    function removeEmployee(){
+        console.log('in removeEmployee');
+        $(this).parent().parent().remove();
     }
