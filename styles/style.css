@@ -1,6 +1,22 @@
+header{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+table{
+    border-collapse: collapse;
+    margin: 5px;
+    width: 75%;
+}
+#tableHead{
+    border: 1px solid black;
+    background-color: lightgray;
+}
 tr{
     border: 1px solid black;
+    background-color: beige;
 }
 td{
-    border: 1px solid black;
+    border: 1px solid;
 }

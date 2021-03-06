@@ -50,4 +50,5 @@ function calculateCosts(employees){
     function removeEmployee(){
         console.log('in removeEmployee');
         $(this).parent().parent().remove();
+        
     }
