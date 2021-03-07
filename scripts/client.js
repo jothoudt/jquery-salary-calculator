@@ -40,15 +40,14 @@ function calculateCosts(employees){
     employeeMonthly= employees[i].annualSalary/12;
     totalMonthly += employeeMonthly;
     $('#monthlyCost').empty()
-    $('#monthlyCost').append(Number(totalMonthly));
+    $('#monthlyCost').append(Number(totalMonthly.toFixed(2)));
     if(totalMonthly > 20000){
         $('#monthlyCost').css('color', 'red');
-    }
-    }
-    }
+    }//end if
+    }//end for
+}//end calculate costs
 
     function removeEmployee(){
         console.log('in removeEmployee');
         $(this).parent().parent().remove();
-        
-    }
+    }//end removeEmployee

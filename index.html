@@ -17,7 +17,7 @@
             </header>
         </div>
         <div id="employeeInput">
-            <h2>Add Employee</h2>
+            <h2><span id="add-employee">Add Employee</span></h2>
           <input type="text" placeholder="First Name" id="firstName">
           <input type="text" placeholder="Last Name" id="lastName">
           <input type="text" placeholder="Id Number" id="idNumber">
@@ -26,7 +26,7 @@
           <button id="submitButton">Submit</button>
         </div>
         <div id=employeeOutput>
-            <table id ="empOut">
+            <table id ="employeeOut">
                 <tr id="tableHead">
                     <td>First Name</td>
                     <td>Last Name</td>
@@ -35,10 +35,13 @@
                     <td>Annual Salary</td>
                     <td>Action</td>
                 </tr>
+                <tbody id="empOut">
+                    
+                </tbody>
             </table>
         </div>
         <div id="monthlyTotal">
-            <h2>Total Monthly Cost:$(<span type="Number" id="monthlyCost">0</span>) </h2>
+            <h2><span id="total-monthly">Total Monthly Cost:$(<span type="Number" id="monthlyCost">0</span>)</span></h2>
         </div>
     </body>
 </html>

@@ -2,21 +2,55 @@ header{
     background-color: gray;
     color: white;
     text-align: center;
-    height: 50px;
 }
+body {
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url("http://4.bp.blogspot.com/-JHIEFPGbLYo/UV4wpzpjXPI/AAAAAAAALrg/QtfJVE6huw4/s1600/7371.jpg");
+    background-size: cover;
+    background-blend-mode: screen;
+}
+
 table{
     border-collapse: collapse;
     margin: 5px;
-    width: 75%;
+    width: 90%;
+    font-size: large
 }
 #tableHead{
+    border: 1px solid black;
+    background-color: silver;
+    font-weight: bold;
+}
+#tfoot{
     border: 1px solid black;
     background-color: lightgray;
 }
 tr{
     border: 1px solid black;
-    background-color: beige;
 }
+tr:first-child{
+    background-color: white;
+}
+tr:nth-of-type(even){
+    background-color: white;
+}
+tr:nth-last-of-type(odd){
+    background-color: gainsboro;
+}
+
 td{
     border: 1px solid;
+}
+
+h2{
+    text-align: center;
+}
+#monthlyTotal{
+    text-align: center;
+}
+#total-monthly{
+    background-color: silver;
+}
+
+#add-employee{
+    background-color: silver;
 }
