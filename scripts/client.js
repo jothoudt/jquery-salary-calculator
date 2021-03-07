@@ -49,5 +49,11 @@ function calculateCosts(employees){
 
     function removeEmployee(){
         console.log('in removeEmployee');
+        itemToRemove =$(this).parent().parent().text().match(employee.annualSalary);
+        totalMonthly -= itemToRemove/12 ;
+        console.log(itemToRemove);
+        console.log(totalMonthly);
+        $('#monthlyCost').empty();
+        $('#monthlyCost').append(Number(totalMonthly.toFixed(2)));
         $(this).parent().parent().remove();
     }//end removeEmployee
