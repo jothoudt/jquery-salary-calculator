@@ -24,7 +24,11 @@ Your project description goes here. What problem did you solve? How did you solv
 
 [x]append css to dom if limit reached
 
-[]remove employee from dom
+[x]remove employee from dom
+
+[x]add styling
+
+[x]delete salary from total
 
 
 
